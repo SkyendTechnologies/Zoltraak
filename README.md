@@ -16,7 +16,7 @@
   Share files securely across the TON network with end-to-end encryption. Every transaction is governed by transparent smart contracts.
 
 - **Tokenized Ecosystem**  
-  Utilize **Zoltraak Tokens (ZLT)** for file encryption, sharing, and storage payments. Rewards are distributed to storage nodes for ensuring data integrity.
+  Utilize **Zoltraak Tokens (ZOL)** for file encryption, sharing, and storage payments. Rewards are distributed to storage nodes for ensuring data integrity.
 
 - **AetherShield Encryption**  
   Advanced multi-layered encryption ensures that all files remain protected during transfer and storage.
@@ -38,11 +38,11 @@
    File access is managed via smart contracts, ensuring only authorized users can retrieve and decrypt the data.
 
 4. **Token Economy**
-   - Users pay in ZLT tokens for file sharing and storage services.
-   - Storage nodes earn ZLT tokens by maintaining file fragments and ensuring uptime.
+   - Users pay in ZOL tokens for file sharing and storage services.
+   - Storage nodes earn ZOL tokens by maintaining file fragments and ensuring uptime.
 
 5. **File Retrieval**  
-   Authorized users can retrieve the file by paying ZLT tokens and decrypt it using the provided keys.
+   Authorized users can retrieve the file by paying ZOL tokens and decrypt it using the provided keys.
 
 ---
 
@@ -66,7 +66,7 @@
 
 | Parameter       | Description                       |
 |------------------|-----------------------------------|
-| **Token Name**   | Zoltraak Token (ZLT)             |
+| **Token Name**   | Zoltraak Token (ZOL)             |
 | **Blockchain**   | TON (The Open Network)           |
 | **Utility**      | Payments for storage and sharing |
 | **Reward System**| Incentives for storage nodes     |
