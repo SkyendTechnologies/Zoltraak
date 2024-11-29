@@ -4,85 +4,80 @@
   <img src="LOGO/Official%20LOGO%20%20Zoltraak%20-%20Coin.png" alt="Official LOGO Zoltraak - Blockchain" width="512">
 </p>
 
-## Overview
+## 🚀 Overview
 
-**Zoltraak** is a decentralized blockchain platform built upon the foundation of the **TON (The Open Network)** blockchain. This project leverages the robust, scalable, and secure infrastructure of TON to offer a flexible platform for creating and managing digital assets, decentralized applications (dApps), and custom tokens.
-
-Zoltraak is designed to bring transparency, security, and efficiency to blockchain-based transactions while maintaining compliance with the principles of open-source development.
+**Zoltraak** is a cutting-edge blockchain project built on the **TON (The Open Network)** ecosystem. It combines decentralized storage, advanced encryption powered by **AetherShield**, and a tokenized economy to enable secure, private, and efficient file sharing and storage solutions.
 
 ---
 
-## Features
+## 🛠️ Key Features
 
-- **Decentralized Infrastructure**: Fully decentralized architecture ensuring transparency and security.
-- **TON-Based Technology**: Built on the TON blockchain, benefiting from its scalability, speed, and efficiency.
-- **Custom Token Support**: Create and manage custom tokens alongside the native ZOL token.
-- **Smart Contracts**: Support for advanced programmable smart contracts.
-- **Scalability**: Designed to handle high transaction volumes without compromising decentralization or performance.
+- **Decentralized File Sharing**  
+  Share files securely across the TON network with end-to-end encryption. Every transaction is governed by transparent smart contracts.
 
----
+- **Tokenized Ecosystem**  
+  Utilize **Zoltraak Tokens (ZOL)** for file encryption, sharing, and storage payments. Rewards are distributed to storage nodes for ensuring data integrity.
 
-## Key Components
+- **AetherShield Encryption**  
+  Advanced multi-layered encryption ensures that all files remain protected during transfer and storage.
 
-1. **Blockchain Core**: Based on the TON blockchain, ensuring high reliability and scalability.
-2. **Transaction System**: Facilitates secure and efficient transactions with cryptographic validation.
-3. **Token Management**: Support for the creation and management of custom tokens on the Zoltraak network.
-4. **Smart Contracts**: Enables the automation of processes and decentralized application development.
-5. **Consensus Mechanism**: Utilizes TON's proof-of-stake consensus for fast and secure network validation.
+- **Scalable and Efficient**  
+  Powered by the TON blockchain, Zoltraak is fast, reliable, and scalable for personal and enterprise-level applications.
 
 ---
 
-## Getting Started
+## 📖 How It Works
 
-To start using Zoltraak, you will need to set up a TON-based node and connect to the network. Detailed setup instructions are available in the [TON documentation](https://ton.org/docs).
+1. **Upload a File**  
+   Users upload files, which are automatically encrypted using **AetherShield** and fragmented into smaller chunks.
 
-### Prerequisites
+2. **Distributed Storage**  
+   The encrypted chunks are stored across the TON network nodes, ensuring fault tolerance and decentralization.
 
-- **TON Node**: Install and configure a TON node to interact with the blockchain.
-- **Fift/TonOS CLI**: Tools for managing accounts, deploying smart contracts, and interacting with the blockchain.
+3. **Smart Contract Management**  
+   File access is managed via smart contracts, ensuring only authorized users can retrieve and decrypt the data.
 
-### Installation and Setup
+4. **Token Economy**
+   - Users pay in ZOL tokens for file sharing and storage services.
+   - Storage nodes earn ZOL tokens by maintaining file fragments and ensuring uptime.
 
-1. Clone the Zoltraak repository:
-   ```bash
-   git clone https://github.com/your-repo/zoltraak.git
-   cd zoltraak
-   ```
-
-2. Follow the TON node setup instructions to configure your environment.
-
-3. Start interacting with the Zoltraak blockchain through the TON-based tools and APIs.
+5. **File Retrieval**  
+   Authorized users can retrieve the file by paying ZOL tokens and decrypt it using the provided keys.
 
 ---
 
-## Contributing
+## 🎯 Use Cases
 
-We welcome contributions to the Zoltraak project! If you are interested in contributing, follow these steps:
+- **Secure Corporate File Sharing**  
+  Safely exchange sensitive documents between departments or organizations.
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add feature'`).
-5. Push to the branch (`git push origin feature-name`).
-6. Submit a pull request for review.
+- **Decentralized Cloud Storage**  
+  Store backups, archives, and personal data without relying on centralized providers.
 
----
+- **Confidential Contract Delivery**  
+  Use Zoltraak to share legal documents and contracts with clients securely.
 
-## License
-
-Zoltraak is distributed under the **GNU Library General Public License v2 (LGPL-2.0)**. This project adheres to the licensing terms of TON, and modifications to the source code respect the open-source licensing principles.
-
-For more details, refer to the [LICENSE](LICENSE) file.
+- **Creative Asset Protection**  
+  Protect and distribute intellectual property, such as music, art, and written works.
 
 ---
 
-## Acknowledgements
+## 💼 Token Details
 
-- **TON Blockchain**: The foundation upon which Zoltraak is built, offering robust blockchain infrastructure.
-- **Free Software Foundation**: For supporting open-source initiatives under the GNU LGPL license.
+| Parameter       | Description                       |
+|------------------|-----------------------------------|
+| **Token Name**   | Zoltraak Token (ZOL)             |
+| **Blockchain**   | TON (The Open Network)           |
+| **Utility**      | Payments for storage and sharing |
+| **Reward System**| Incentives for storage nodes     |
 
 ---
 
-## Contact
+## 🔧 Installation and Setup
 
-For inquiries or further information, please contact the Zoltraak team at [contact@zoltraak.io](mailto:contact@zoltraak.io).
+Follow these steps to set up Zoltraak locally for development or testing purposes:
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/<your-username>/zoltraak.git
+cd zoltraak
