@@ -8,17 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d05f628-76fd-41be-a5a5-a252b07a8b98" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/src/blockchain.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/src/blocks/block.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/src/blocks/mod.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/src/logs.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/src/main.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/src/transactions/mod.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain-rust/src/transactions/transaction.rs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +55,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "G:/Repository/jito-solana",
+    "git-widget-placeholder": "Development",
+    "last_opened_file_path": "G:/Repository/Zoltraak/frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,9 +65,15 @@
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
+    "ts.external.directory.path": "G:\\Repository\\Zoltraak\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Repository\Zoltraak\frontend" />
+    </key>
+  </component>
   <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="buildProfileId" value="bench" />
@@ -109,6 +111,13 @@
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -126,6 +135,7 @@
       <workItem from="1732202973635" duration="4851000" />
       <workItem from="1732270566513" duration="840000" />
       <workItem from="1732819408367" duration="767000" />
+      <workItem from="1732987320833" duration="3214000" />
     </task>
     <servers />
   </component>
