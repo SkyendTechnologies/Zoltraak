@@ -1,0 +1,9 @@
+services:
+  pg:
+    image: postgres
+    environment:
+      POSTGRES_DB: zoltraakAPI
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: toor
+    ports:
+      - 5432:5432

@@ -1,93 +1,94 @@
-<script setup="ts">
-import { onMounted } from 'vue';
-import { gsap } from 'gsap';
+<script setup lang="ts">
+import { ref, onMounted } from "vue";
+import { gsap } from "gsap";
 
-// Анимация GSAP
+import Zlogo from "@/components/logo/Zlogo.vue";
+
+const introSection = ref(null);
+
 onMounted(() => {
-  gsap.from(".hero-heading", {
-    opacity: 0,
-    y: -50,
-    duration: 1,
-    ease: "power2.out",
-  });
+  gsap.fromTo(
+    introSection.value,
+    { opacity: 0, y: 50 },
+    { opacity: 1, y: 0, duration: 1, ease: "power4.out" }
+  );
 
-  gsap.from(".hero-subtitle", {
-    opacity: 0,
-    y: 50,
-    duration: 1.2,
-    ease: "power2.out",
-    delay: 0.2,
-  });
-
-  gsap.from(".cta-button", {
-    opacity: 0,
-    scale: 0.8,
-    duration: 1.5,
-    ease: "elastic.out(1, 0.4)",
-    delay: 0.5,
-  });
+  // Animation for cards
+  gsap.fromTo(
+    ".card",
+    { opacity: 0, y: 50, rotateY: 20 },
+    { opacity: 1, y: 0, rotateY: 0, duration: 1, stagger: 0.2, ease: "power4.out" }
+  );
 });
 </script>
 
 <template>
-  <div class="min-h-screen bg-zol-dark-blue-1 text-zol-gray flex flex-col items-center justify-center glass-effect">
+  <div class="relative min-h-screen bg-zol-dark-blue-1 text-white overflow-hidden">
     <!-- Hero Section -->
-    <div class="text-center">
-      <h1 class="hero-heading text-5xl md:text-7xl font-bold text-zol-cyan mb-4">
-        Zoltraak
+    <section
+      ref="introSection"
+      class="flex flex-col justify-center items-center h-screen text-center p-4"
+    >
+      <Zlogo class="animate-fade-in" @animate-logo="animateLogo" :height="520" :width="520" />
+      <h1 class="text-5xl lg:text-7xl font-bold tracking-tight animate-fade-in">
+        Welcome to <span class="text-zol-cyan">Zoltraak</span>
       </h1>
-      <p class="hero-subtitle text-xl md:text-2xl text-zol-gray max-w-2xl mx-auto">
-        Empowering secure blockchain-based file sharing with ZOL and advanced AetherShield encryption.
+      <p class="mt-4 text-lg lg:text-xl text-zol-gray">
+        Secure file sharing powered by the TON blockchain.
       </p>
-      <div class="mt-8">
-        <button class="cta-button px-6 py-3 bg-zol-cyan text-zol-blue-black rounded-full text-lg font-semibold hover:bg-zol-light-cyan transition duration-300">
-          Get Started
-        </button>
-      </div>
-    </div>
+      <button
+        class="mt-8 px-6 py-3 text-lg bg-zol-cyan hover:bg-zol-dark-cyan transition-transform transform hover:scale-105 rounded-md shadow-lg font-medium"
+      >
+        Get Started
+      </button>
+    </section>
 
-    <!-- Features Section -->
-    <div class="mt-20 max-w-4xl px-6">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="p-6 bg-zol-dark-blue-2 rounded-lg shadow-lg">
-          <h3 class="text-lg font-bold text-zol-cyan">Advanced Encryption</h3>
-          <p class="text-zol-gray mt-2">
-            Experience state-of-the-art data protection with AetherShield integration.
+    <!-- "Table" Effect with Cards -->
+    <section class="flex justify-center items-center py-20 bg-gradient-to-b from-zol-dark-blue-2 to-zol-dark-blue-1">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div
+          class="card relative bg-zol-dark-blue-6 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2"
+        >
+          <h3 class="text-xl font-semibold text-zol-cyan">Encryption</h3>
+          <p class="mt-2 text-sm text-zol-gray">
+            Multi-layered encryption with AetherShield.
           </p>
         </div>
-        <div class="p-6 bg-zol-dark-blue-2 rounded-lg shadow-lg">
-          <h3 class="text-lg font-bold text-zol-cyan">Decentralized Storage</h3>
-          <p class="text-zol-gray mt-2">
-            Secure your files with the power of decentralized technology and TON nodes.
+        <div
+          class="card relative bg-zol-dark-blue-6 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2"
+        >
+          <h3 class="text-xl font-semibold text-zol-cyan">Decentralization</h3>
+          <p class="mt-2 text-sm text-zol-gray">
+            Powered by TON blockchain for unparalleled security.
           </p>
         </div>
-        <div class="p-6 bg-zol-dark-blue-2 rounded-lg shadow-lg">
-          <h3 class="text-lg font-bold text-zol-cyan">ZOL Token Ecosystem</h3>
-          <p class="text-zol-gray mt-2">
-            Seamlessly transact and manage digital assets within the ZOL ecosystem.
+        <div
+          class="card relative bg-zol-dark-blue-6 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2"
+        >
+          <h3 class="text-xl font-semibold text-zol-cyan">Speed</h3>
+          <p class="mt-2 text-sm text-zol-gray">
+            Ultra-fast file sharing with advanced tech.
           </p>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
 <style scoped>
-/* Добавляем анимацию для секций */
-.hero-heading {
-  transition: transform 0.3s ease, opacity 0.3s ease;
+/* Animation classes */
+.animate-fade-in {
+  animation: fadeIn 1.2s ease-in-out;
 }
 
-.hero-heading:hover {
-  transform: translateY(-5px);
-  opacity: 0.9;
-}
-
-.hero-subtitle {
-  transition: color 0.3s ease;
-}
-
-.hero-subtitle:hover {
-  color: #3dcff2; /* Яркий циан для взаимодействия */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>
