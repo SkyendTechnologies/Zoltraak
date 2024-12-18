@@ -5,12 +5,9 @@ from fastapi import FastAPI
 import uvicorn
 from logs import init_logger
 
-from config import Settings
-from services.db_service import lifespan
+from config import settings
 from routers import Routering
-
-# init
-settings = Settings()  # Создание экземпляра класса Settings
+from services.db_service import lifespan
 
 # debug
 init_logger(logging.DEBUG)

@@ -7,37 +7,18 @@
     <cargoProject FILE="$PROJECT_DIR$/blockchain/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d05f628-76fd-41be-a5a5-a252b07a8b98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/api/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/models/accounts/account_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/models/db_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/models/users_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/models/wallet_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/routers/router_A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/services/db_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/Official LOGO  Zoltraak - Coin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/Official LOGO  Zoltraak - No Background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/logo/Zlogo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/ConnectingView.vue" afterDir="false" />
+    <list default="true" id="5d05f628-76fd-41be-a5a5-a252b07a8b98" name="Changes" comment="Init Tailwind and gsap. And worker API">
+      <change afterPath="$PROJECT_DIR$/backend/api/models/accounts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Zoltraak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Zoltraak.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/contracts/ZoltraakToken.func" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/contracts/ZoltraakToken.func" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/models/accounts/account_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/models/accounts/account_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/models/accounts/mining_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/models/accounts/mining_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/models/wallet_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/models/wallet_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/routers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/routers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/routers/router_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/routers/router_A.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,42 +58,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Run.executor": "Debug",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Python.config.executor": "Run",
-    "Python.logs.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "Development",
-    "last_opened_file_path": "G:/Repository/Zoltraak/backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "G:\\Repository\\Zoltraak\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run.executor&quot;: &quot;Debug&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Repository/Zoltraak/backend/api/models/accounts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;G:\\Repository\\Zoltraak\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Repository\Zoltraak\backend\api\models\accounts" />
       <recent name="G:\Repository\Zoltraak\backend" />
       <recent name="G:\Repository\Zoltraak\frontend\src\assets\svg" />
       <recent name="G:\Repository\Zoltraak\frontend" />
@@ -287,8 +269,18 @@
       <workItem from="1733427579795" duration="9922000" />
       <workItem from="1733736372612" duration="14147000" />
       <workItem from="1733926460813" duration="23643000" />
-      <workItem from="1734041203494" duration="23279000" />
+      <workItem from="1734041203494" duration="35557000" />
+      <workItem from="1734413925921" duration="2678000" />
     </task>
+    <task id="LOCAL-00001" summary="Init Tailwind and gsap. And worker API">
+      <option name="closed" value="true" />
+      <created>1734127759095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734127759095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,11 +288,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Tailwind and gsap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init Tailwind and gsap" />
+    <MESSAGE value="Init Tailwind and gsap. And worker API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init Tailwind and gsap. And worker API" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Zoltraak$config.coverage" NAME="config Coverage Results" MODIFIED="1734107004915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/api" />
     <SUITE FILE_PATH="coverage/Zoltraak$logs.coverage" NAME="logs Coverage Results" MODIFIED="1734075413953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/api" />
-    <SUITE FILE_PATH="coverage/Zoltraak$main.coverage" NAME="main Coverage Results" MODIFIED="1734107449373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/api" />
+    <SUITE FILE_PATH="coverage/Zoltraak$main.coverage" NAME="main Coverage Results" MODIFIED="1734273281977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/api" />
   </component>
 </project>

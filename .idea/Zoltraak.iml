@@ -9,8 +9,9 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/backend/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/env" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (Zoltraak)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (Zoltraak)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

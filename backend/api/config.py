@@ -39,3 +39,6 @@ class Settings(BaseSettings):
         v2="/api/v2"
     )
     db: DatabaseConfig
+
+
+settings = Settings()
